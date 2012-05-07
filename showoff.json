@@ -1,6 +1,11 @@
 { 
   "name": "A Secure Android VoIP Stack Using SELinux", 
   "sections": [ 
-    {"section":"intro"} 
+    {"section":"intro"},
+    {"section":"selinux"},
+    {"section":"seandroid"},
+    {"section":"approach"},
+    {"section":"demo"},
+    {"section":"conclusion"}
   ]
 }
