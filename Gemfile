@@ -4,3 +4,4 @@ gem "showoff", :git => 'https://github.com/schacon/showoff.git', :branch => 'mas
 gem "pdfkit"
 gem "rmagick"
 gem "wkhtmltopdf-binary"
+gem "thin"
