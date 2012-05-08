@@ -75,3 +75,8 @@ div.content[ref="intro/01_title"] {
   border-radius: 40px;
   font-variant: small-caps;
 }
+
+.content ins {
+  font-size: 150%;
+  font-weight: bold;
+}
