@@ -1,0 +1,38 @@
+.bg {
+  position: fixed;
+  width: inherit;
+  height: inherit;
+}
+
+.bg img {
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+}
+.content {
+  color: black;
+  font-family: 'Droid Sans', helvetica, arial;
+}
+h1, h2 {
+  font-weight: bold;
+}
+
+.content > .title {
+  display: none;
+}
+
+.headline {
+  margin: 0;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.title { 
+  background: blue;
+  font-size: 4em;
+  padding: 20px;
+  color: white;
+  font-variant: small-caps;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
