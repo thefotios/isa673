@@ -19,3 +19,5 @@ doc/
 
 # Mac stuff
 .DS_Store
+
+bin
