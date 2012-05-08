@@ -1,4 +1,4 @@
-!SLIDE center
+!SLIDE center small
 .title Challenges
 
 * SEAndroid can't isolate network interfaces
