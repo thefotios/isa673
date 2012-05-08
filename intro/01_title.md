@@ -1,4 +1,4 @@
 !SLIDE
 # ~~~CONFIG:name~~~ #
 
-### Fotios Lindiakos and Burns Mijanovich ###
+### Fotios Lindiakos &amp; Burns Mijanovich ###
