@@ -10,7 +10,6 @@
   height: 100%;
 }
 .content {
-  position: relative;
   color: black;
   font-family: 'Droid Sans', helvetica, arial;
 }
@@ -21,7 +20,19 @@ h1, h2 {
 .content > .title {
   display: none;
 }
-.title {
-  font-size: 2em;
+
+.headline {
   margin: 0;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.title { 
+  background: blue;
+  font-size: 4em;
+  padding: 20px;
+  color: white;
+  font-variant: small-caps;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
 }

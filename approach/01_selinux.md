@@ -1,2 +1,2 @@
 !SLIDE
-# SELinux Approach #
+.title SELinux Approach

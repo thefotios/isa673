@@ -1,2 +1,2 @@
 !SLIDE
-# Challenges #
+.title Challenges

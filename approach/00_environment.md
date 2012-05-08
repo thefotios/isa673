@@ -9,5 +9,6 @@
 [1]: https://github.com/fotioslindiakos/seandroid_tools
 
 !SLIDE
-# Emulator Setup #
 .notes Making partition bigger
+
+.title Emulator Setup
