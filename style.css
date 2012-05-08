@@ -62,3 +62,9 @@ div.content[ref="intro/01_title"] {
   border-radius: 80px;
   font-variant: small-caps;
 }
+
+.content img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
