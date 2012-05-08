@@ -1,8 +1,9 @@
 !SLIDE
-# Network Environment #
+.title Network Environment 
 
 !SLIDE
-# Build Environment #
+.title Build Environment
+
 * [our tools][1]
 
 [1]: https://github.com/fotioslindiakos/seandroid_tools
