@@ -45,4 +45,9 @@ h1, h2 {
 
 .main > .center.content {
   position: absolute;
+  padding-top: 10px;
+}
+
+.content > ul > li {
+  padding: .2em;
 }
