@@ -1,7 +1,6 @@
 source :rubygems
 
-gem "showoff", :git => 'https://github.com/schacon/showoff.git', :branch => 'master'
-gem "pdfkit"
-gem "rmagick"
-gem "wkhtmltopdf-binary"
-gem "thin"
+gem "rack"
+gem "sinatra"
+gem "showoff", "~> 0.7.0", :git => "https://github.com/schacon/showoff.git"
+gem "wkhtmltopdf"
