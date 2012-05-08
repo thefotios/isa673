@@ -66,5 +66,12 @@ div.content[ref="intro/01_title"] {
 .content img {
   max-width: 100%;
   height: auto;
-  width: 100%;
+}
+
+.content .frame {
+  display: block;
+  background-color: gray;
+  padding: 20px;
+  border-radius: 40px;
+  font-variant: small-caps;
 }

@@ -1,7 +1,9 @@
 !SLIDE center
 .title Network Environment 
 
-![Network Diagram](NetworkDiagram.png)
+<span class='frame'>
+  ![Network Diagram](NetworkDiagram.png)
+</span>
 
 !SLIDE center
 .title Build Environment
