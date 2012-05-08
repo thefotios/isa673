@@ -1,2 +1,2 @@
-!SLIDE
+!SLIDE center
 .title Conclusion 

@@ -1,11 +1,11 @@
-!SLIDE
+!SLIDE center
 .title SELinux
 
 * Mandatory Access Control (MAC) extension for Linux
 * Developed by NSA for use on classified systems
 * Kernel level - underneath permissions model
 
-!SLIDE
+!SLIDE center
 .title How Does It Work?
 
 * Security Contexts

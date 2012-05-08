@@ -1,4 +1,4 @@
-!SLIDE
+!SLIDE center
 .title SEAndroid
 
 * SELinux for Android
@@ -8,7 +8,7 @@
   * Prevent exploitation (hardening)
   * Provide guaranteed secure environment (separation)
 
-!SLIDE
+!SLIDE center
 .title SEAndroid Objectives & Issues
 
 * We met with Stephen Smalley
