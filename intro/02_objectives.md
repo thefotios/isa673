@@ -1,4 +1,4 @@
-!SLIDE
+!SLIDE center
 .notes Android - how to build our own kernel
 .notes SELinux - building a custom policy
 

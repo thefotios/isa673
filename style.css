@@ -35,4 +35,14 @@ h1, h2 {
   font-variant: small-caps;
   border-top-left-radius: 40px;
   border-bottom-left-radius: 40px;
+  position: relative;
+  padding-left: 50px;
+}
+
+.main {
+  position: relative;
+}
+
+.main > .center.content {
+  position: absolute;
 }

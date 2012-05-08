@@ -1,14 +1,14 @@
-!SLIDE
+!SLIDE center
 .title Network Environment 
 
-!SLIDE
+!SLIDE center
 .title Build Environment
 
 * [our tools][1]
 
 [1]: https://github.com/fotioslindiakos/seandroid_tools
 
-!SLIDE
+!SLIDE center
 .notes Making partition bigger
 
 .title Emulator Setup
