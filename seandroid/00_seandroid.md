@@ -1,3 +1,6 @@
+!SLIDE subsection
+# Android + SELinux = SEAndroid! #
+
 !SLIDE center
 .title SEAndroid
 

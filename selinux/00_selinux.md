@@ -1,3 +1,6 @@
+!SLIDE subsection
+# SELinux #
+
 !SLIDE center
 .title SELinux
 
