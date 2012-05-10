@@ -1,10 +1,7 @@
 presentations
 =============
 
-[Static version of our presentation][1]
+[Online  version of our presentation][1]
+(Best viewed in Chrome on Fedora, for some reason the font sizes are messed up in some versions of Firefox. Also, it caused the XP computer in class to bluesceen, you've been warned.)
 
-[1]: http://fotioslindiakos.github.com/isa673/
-
-# TODO #
-* Add Javascript to move .title into title
-
+[1]: http://isa673-fotios.rhcloud.com
