@@ -9,6 +9,11 @@
   width: 100%;
   height: 100%;
 }
+
+.bg.titlepage img{
+  opacity: .8;
+}
+
 .content {
   color: black;
   font-family: 'Droid Sans', helvetica, arial;
@@ -53,7 +58,7 @@ h1, h2 {
 }
 
 div.content[ref="intro/01_title"] {
-  background-color: gray;
+  background-color: rgba(128, 128, 128, .8);
   width: 90%;
   margin: auto;
   padding: 20px;
