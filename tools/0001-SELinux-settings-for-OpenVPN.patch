@@ -1,0 +1,28 @@
+diff --git a/app.te b/app.te
++type openvpn_app, domain;
++app_domain(openvpn_app)
++net_domain(openvpn_app)
++
++allow openvpn_app app_data_file:dir { remove_name search open add_name };
++allow openvpn_app app_data_file:file open;
++allow openvpn_app sdcard:dir { read search open };
++allow openvpn_app sdcard:file { read getattr open };
++allow openvpn_app self:capability { setuid net_raw setgid net_admin dac_override };
++allow openvpn_app shell_exec:file { read execute open execute_no_trans };
++allow openvpn_app su_exec:file { read execute open execute_no_trans };
++allow openvpn_app system_file:file execute_no_trans;
++allow openvpn_app tun_device:chr_file { read write ioctl open };
+
+diff --git a/device.te b/device.te
++type tun_device, dev_type;
+
+diff --git a/file_contexts b/file_contexts
++/dev/tun    u:object_r:tun_device:s0
++
++/system/xbin/openvpn  u:object_r:openvpn_exec:s0
+
+diff --git a/seapp_contexts b/seapp_contexts
++user=app_* type=app_data_file 
++           name=de.schaeuffelhut.android.openvpn 
++           domain=openvpn_app 
++           levelFromUid=true
