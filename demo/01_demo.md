@@ -8,5 +8,4 @@
 # SEAndroid Emulator #
 [![demo](demo.png)][1]
 
-[Link to Video][1]
 [1]: http://www.youtube.com/v/TsRVvMhcuFM?hd=1&rel=0
