@@ -21,5 +21,5 @@ After booting the phone, we were then able to run our applications and obtain th
 We used those messages and the \verb=audit2allow= tool to generate an even more extensive policy which contained all of the actions OpenVPN was trying to perform, and added that to the \verb=app.te= file.
 
 After regenerating the system image again, we no longer got any \ac{avc} denial messages when running the applications.
-We must note here that we did not have to modufy any characteristics of the Sipdroid application because it's requests were made through \verb=binder= which strips any \ac{selinux} contexts from requests.
+We must note here that we did not have to modify any characteristics of the Sipdroid application because its requests were made through \verb=binder= which strips any \ac{selinux} contexts from requests.
 This effectively prevents any network based labelling and permissions.
