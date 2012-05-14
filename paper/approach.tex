@@ -1,3 +1,10 @@
+\begin{figure*}[bt!]
+  \centering
+  \includegraphics[width=.8\textwidth]{NetworkDiagram.png}
+  \caption{Architectural layout}
+  \label{fig:architecture}
+\end{figure*}
+
 Our approach was to first implement a secure \ac{voip} stack on the phone by creating a \ac{vpn} connection to a simulated enterprise.
 We accomplished this by creating a virtual maching on Amazon's EC2 service which was running OpenVPN\footnote{\url{http://openvpn.net/}} and configured to only allow \ac{vpn} network traffic.
 This virtual machine had one interface on the Internet and another on a \ac{lan} segment with no other connections to the Internet.
@@ -7,7 +14,7 @@ We then created a virtual machine running FreePBX\footnote{\url{http://www.freep
 After the servers were set up, we downloaded the Android source code from the \ac{aosp} for the android-4.0.3\_r1.1 branch.
 We compiled our own kernel as well as created a system image with the standard Ice Cream Sandwich Operating System as well as the standard applications.
 We then installed the OpenVPN client application and added our relevant keys.
-Next we installed and configured Sipdroid\footnote{\url{http://code.google.com/p/sipdroid/}} to connect to our \ac{sip} server over the \ac{vpn} tunnel.
+Next we installed and configured Sipdroid\footnote{\url{http://code.google.com/p/sipdroid/}} to connect to our \ac{sip} server over the \ac{vpn} tunnel, as shown in Figure~\ref{fig:architecture}.
 
 After that was configured and operating correctly, we obtained the \ac{seandroid} code for the same Android branch.
 From this, we generated a new kernel and userspace, which included the \ac{selinux} enhancements.
@@ -23,3 +30,4 @@ We used those messages and the \verb=audit2allow= tool to generate an even more 
 After regenerating the system image again, we no longer got any \ac{avc} denial messages when running the applications.
 We must note here that we did not have to modify any characteristics of the Sipdroid application because its requests were made through \verb=binder= which strips any \ac{selinux} contexts from requests.
 This effectively prevents any network based labelling and permissions.
+
