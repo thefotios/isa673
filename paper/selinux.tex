@@ -1,0 +1,9 @@
+\ac{selinux} is a Linux feature that provides a mechanism for supporting access control security policies, including mandatory access controls, through the use of \ac{lsm} in the Linux kernel.
+It is not a Linux distribution, but rather a set of Kernel modifications and user-space tools that can be added to various Linux distributions.
+Its architecture strives to separate enforcement of security decisions from the security policy itself and streamlines the volume of software charged with security policy enforcement 
+
+\ac{selinux} can potentially control which activities are allowed for each user, process and daemon, with very precise specifications.
+However, it is mostly used to confine daemons like database engines or web servers that have more clearly defined data access and activity rights.
+A confined daemon that becomes compromised is thus limited in the harm it can do.
+Ordinary user processes often run in the unconfined domain, not restricted by \ac{selinux} but still restricted by the classic Linux access rights.
+\cite{wiki:selinux}
